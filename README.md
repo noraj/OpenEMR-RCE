@@ -61,10 +61,10 @@ gem install httpclient docopt
 
 This is a better re-write of [EDB-ID-48515][EDB-ID-48515]:
 
-- using arguments (instead of harcoded values)
+- using arguments (instead of hardcoded values)
 - allowing custom PHP reverse shell or auto generating one with `msfconsole`
 - cleaner & more customizable
-- python2 is deprecated
+- using ruby (python2 is deprecated)
 
 This exploit was tested with Ruby 2.7.1.
 
