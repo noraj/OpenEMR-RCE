@@ -2,7 +2,7 @@
 
 > OpenEMR <= 5.0.1 - (Authenticated) Remote Code Execution
 
-[[PacketStorm](https://packetstormsecurity.com/files/158711/OpenEMR-5.0.1-Remote-Code-Execution.html)] [[WLB-2020080011](https://cxsecurity.com/issue/WLB-2020080011)]
+[[EDB-49486]](https://www.exploit-db.com/exploits/49486) [[PacketStorm](https://packetstormsecurity.com/files/158711/OpenEMR-5.0.1-Remote-Code-Execution.html)] [[WLB-2020080011](https://cxsecurity.com/issue/WLB-2020080011)]
 
 ## Usage
 
