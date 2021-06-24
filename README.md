@@ -1,6 +1,6 @@
 # OpenEMR RCE exploit / PoC
 
-> OpenEMR <= 5.0.1 - (Authenticated) Remote Code Execution
+> OpenEMR <= 5.0.1.4 - (Authenticated) Remote Code Execution
 
 Exploit for [CVE-2018-15142](https://nvd.nist.gov/vuln/detail/CVE-2018-15142).
 
@@ -10,7 +10,7 @@ Exploit for [CVE-2018-15142](https://nvd.nist.gov/vuln/detail/CVE-2018-15142).
 
 ```
 $ ruby exploit.rb --help
-OpenEMR <= 5.0.1 - (Authenticated) Remote Code Execution
+OpenEMR <= 5.0.1.4 - (Authenticated) Remote Code Execution
 
 Usage:
   exploit.rb manual --root-url <url> --shell <filename> --user <username> --password <password> [--debug]
