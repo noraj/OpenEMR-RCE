@@ -2,7 +2,9 @@
 
 > OpenEMR <= 5.0.1 - (Authenticated) Remote Code Execution
 
-[[EDB-49486]](https://www.exploit-db.com/exploits/49486) [[PacketStorm](https://packetstormsecurity.com/files/158711/OpenEMR-5.0.1-Remote-Code-Execution.html)] [[WLB-2020080011](https://cxsecurity.com/issue/WLB-2020080011)]
+Exploit for [CVE-2018-15142](https://nvd.nist.gov/vuln/detail/CVE-2018-15142).
+
+[[EDB-49486](https://www.exploit-db.com/exploits/49486)] [[PacketStorm](https://packetstormsecurity.com/files/158711/OpenEMR-5.0.1-Remote-Code-Execution.html)] [[WLB-2020080011](https://cxsecurity.com/issue/WLB-2020080011)]
 
 ## Usage
 
@@ -59,7 +61,7 @@ gem install httpclient docopt
 
 ## Reference
 
-This is a better re-write of [EDB-ID-48515][EDB-ID-48515]:
+This is a better re-write of [EDB-ID-48515][EDB-ID-48515] and implementation of [EDB-ID-45202 part 2][EDB-ID-45202]:
 
 - using arguments (instead of hardcoded values)
 - allowing custom PHP reverse shell or auto generating one with `msfconsole`
@@ -82,3 +84,4 @@ References: https://medium.com/@musyokaian/openemr-version-5-0-1-remote-code-exe
 ```
 
 [EDB-ID-48515]:https://www.exploit-db.com/exploits/48515
+[EDB-ID-45202]:https://www.exploit-db.com/exploits/45202
